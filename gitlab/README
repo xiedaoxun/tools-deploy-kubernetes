@@ -1,0 +1,3 @@
+1. 配置storageclass，可以使用nfs，网上很多，这里不详细说明
+2. 修改yaml文件中nfs等信息
+3. kubectl apply -f .

@@ -1,0 +1,11 @@
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: gitlab-gitlab
+  namespace: gitlab
+spec:
+  accessModes: [ "ReadWriteMany" ]
+  storageClassName: "gitlab-storageclass"
+  resources:
+    requests:
+      storage: 5Gi
